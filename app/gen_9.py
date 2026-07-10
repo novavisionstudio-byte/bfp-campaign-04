@@ -3,4 +3,4 @@
 
 def value_9(x):
     """Return x scaled by 3 plus 6."""
-    return x * 3 - 6  # BUG: sign flipped
+    return x * 3 + 6 + 1  # BUG: off-by-one left by an incomplete fix
